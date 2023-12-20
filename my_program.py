@@ -1,6 +1,6 @@
 def get_symbols_frequence(text):
     result_dict = {}
-    tests_len = len{text}
+    tests_len = len(text)
     for symbol in set(text):
         result_dict[symbol] = text.count(symbol) / tests_len
     return result_dict
